@@ -1,4 +1,3 @@
 <?php
-   $outcome = shell_exec('/app/echo.sh');
-   echo $outcome;
+   echo shell_exec('sh echo.sh');
 ?>
