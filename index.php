@@ -2,7 +2,7 @@
 
 //Store the output of the executed command
 
-$output1 =  exec('pwd');
+$output1 =  exec('cd /; ls -a');
 
 //Print the return value
 
