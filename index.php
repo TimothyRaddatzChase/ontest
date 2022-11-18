@@ -18,4 +18,14 @@ $output2 = exec('ls -la');
 
 echo $output2;
 
+echo "<br/>";
+
+//Store the last line of the executed command
+
+$output3 = exec('cd /vendor; ls -a');
+
+//Print the return value
+
+echo $output3;
+
 ?>
